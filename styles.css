@@ -1,0 +1,84 @@
+
+
+.box-container {
+    background-color: rgb(65, 64, 64);
+    display: flex;
+    height: auto;
+    flex-wrap: wrap;
+}
+
+.box {
+    color: rgb(185, 185, 185);
+    width: 50%;
+    margin-left: 25px;
+    flex: 1;
+    margin-right: 25px;
+}
+
+h3 {
+    color: white;
+}
+
+.box > p {
+    font-size: 13px;
+}
+
+.box > li {
+    font-size: 13px;
+}
+
+li {
+    list-style-type: none;
+    padding-bottom: 15px;
+}
+
+.ikona {
+    margin-left: 20px;
+}
+
+.elementi {
+    color: rgb(190, 0, 190);
+    position: absolute;
+    
+}
+
+li:hover {
+    color: red;
+}
+
+#BIkona {
+    color: white;
+}
+
+.social {
+    padding-left: 12px;
+}
+
+.circle-icon {
+    border: white 1px solid;
+    border-radius: 50%;
+    height: 4%;
+    width: 4%;
+    text-align: center;
+    position: absolute;
+
+}
+
+hr {
+    border: 1px solid gray;
+    width: 80%;
+}
+
+.copyright {
+    text-align: center;
+    color: white;
+    padding-bottom: 20px;
+}
+
+footer {
+    background-color: rgb(65, 64, 64);
+}
+
+i:hover {
+    color: blue;
+}
